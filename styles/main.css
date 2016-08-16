@@ -1,8 +1,8 @@
 body {
-  background: pink;
-  font-family: Trebuchet;
+  background: #4d4d4d;
+  font-family: monospace;
 }
 
 h2 {
-  color: #00ffff;
+  color: pink;
 }
