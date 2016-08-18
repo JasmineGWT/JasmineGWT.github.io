@@ -1,10 +1,7 @@
 html {
   text-align: center;
-}
-
-body {
-  background: #4d4d4d;
-  font-family: monospace;
+  background:#ffe6f3;
+  font-family: 'Roboto Slab', serif;
 }
 
 h2 {
