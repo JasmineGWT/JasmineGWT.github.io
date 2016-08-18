@@ -4,6 +4,7 @@ html {
   font-family: 'Roboto Slab', serif;
 }
 
-h2 {
-  color: pink;
+body {
+  margin-right: 150px;
+  margin-left: 150px;
 }
