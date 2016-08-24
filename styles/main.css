@@ -3,7 +3,7 @@ html {
   background:#ffe6f3;
 }
 
-body, img {
+img {
   margin-right: 150px;
   margin-left: 150px;
   padding: 50px;
@@ -15,8 +15,11 @@ h1, h2, h3 {
   font-family: 'Roboto Slab', serif;
 }
 
-p {
+.info, .question {
   font-family: 'Raleway', sans-serif;
+  margin-right: 150px;
+  margin-left: 150px;
+  padding: 50px;
 }
 
 .nav {
