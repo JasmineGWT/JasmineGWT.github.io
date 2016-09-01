@@ -55,10 +55,6 @@ h1, h2, h3 {
     list-style-type: none;
 }
 
-.nav li {
-    display: inline-block;
-}
-
 .nav li a {
     display: block;
     color: white;
@@ -69,4 +65,12 @@ h1, h2, h3 {
 
 .nav li a:hover {
     background-color: pink;
+}
+
+@media (min-width: 981px) {
+
+  .nav li {
+      display: inline-block;
+  }
+
 }
