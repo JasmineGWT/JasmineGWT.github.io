@@ -12,12 +12,12 @@ img {
 }
 
 .info_images {
-  text-align: left;
+  text-align: center;
   margin-right: 50px;
   margin-left: 50px;
   padding: 20px;
-  border-radius: 70px;
-  width: 25%;
+  border-radius: 50px;
+  width: 35%;
 }
 
 .title {
