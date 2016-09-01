@@ -11,6 +11,15 @@ img {
   width: 50%;
 }
 
+.info_images {
+  text-align: left;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 20px;
+  border-radius: 70px;
+  width: 25%;
+}
+
 .title {
   background-image: url(http://i.imgur.com/SzOPmOv.gif);
   color: #ffe6f3;
