@@ -27,16 +27,51 @@
     </ul>
 
     <div  class="info">
-      <h3>How does JavaScript compare to HTML and CSS?</h3>
+      <h3>HTML/CSS and JavaScript</h3>
+      <p>
+        Each of these all do different things to have the outcome of a well structured, visually pleasing and interactive website. HTML is used to add all the information of the website. Eg. The text, headings, nav bar. CSS is used to make all the elements in the HTML look a certain way. Eg. Image size, font, background. JavaScript is used to create the interactive aspect of a website. Eg. Inputing information to be used by the website.
+      </p>
+      <h3>Control flow and loops</h3>
+      <p>
+        Control flow is a very important part of programming because it allows the code to do different things depending on the scenario. This is done in many different ways. If/else, loops and switch are three way in which this is done. For example lets say I’m tired and I’m asking a website what to do (I hope most people are able to figure this out without the use of a website).
+        Here we are using if/else statements to tell the user what to do:
+        <code>
+          var userAnswer = prompt("Are you tired?");
+
+          if (userAnswer === "yes") {
+            console.log("Go to sleep!")
+          }
+          else {
+            console.log("Stay awake!")
+          }
+        </code>
+        But what if we want to have multiple different answers? We could use "if else" statements but there is a way more efficent way of doing it.
+        Here we are using switch statements to tell the user what to do:
+        <code>
+          var userAnswer = prompt("Are you tired?");
+
+          switch (userAnswer) {
+            case "yes":
+              console.log("Go to sleep!")
+              break;
+            case "no":
+              console.log("Don't sleep!")
+              break;
+            case "a bit":
+              console.log("Have a quick nap!")
+              break;
+            case "i don't know":
+              console.log("Figure it out and come back later")
+              break;
+            default:
+              console.log("I didn't understand that. Try again!")
+          }
+        </code>
+      </p>
+      <h3>Arrays and object literals</h3>
       <p>
       </p>
-      <h3>Explain control flow and loops using an example process from everyday life, for example 'waking up' or 'brushing your teeth'.</h3>
-      <p>
-      </p>
-      <h3>Explain the difference between accessing data from arrays and object literals.</h3>
-      <p>
-      </p>
-      <h3>Explain what functions are and why they are useful.</h3>
+      <h3>Functions</h3>
       <p>
       </p>
     </div>
