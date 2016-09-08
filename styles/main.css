@@ -71,6 +71,16 @@ h3 {
   background-color: pink;
 }
 
+.code {
+  text-align: left;
+  margin-right: 150px;
+  margin-left: 150px;
+  padding: 20px;
+  border-radius: 70px;
+  width: 50%;
+
+}
+
 @media (min-width: 981px) {
 
   .nav li {
