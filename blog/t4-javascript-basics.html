@@ -33,40 +33,69 @@
       </p>
       <h3>Control flow and loops</h3>
       <p>
-        Control flow is a very important part of programming because it allows the code to do different things depending on the scenario. This is done in many different ways. If/else, loops and switch are three way in which this is done. For example lets say I’m tired and I’m asking a website what to do (I hope most people are able to figure this out without the use of a website).
+        Control flow is a very important part of programming because it allows the code to do different things depending on the scenario. This is done in many different ways. If/else, switch and loops are three way in which this is done. For example lets say I’m tired and I’m asking a website what to do (I hope most people are able to figure this out without the use of a website).
         Here we are using if/else statements to tell the user what to do:
-        <code>
-          var userAnswer = prompt("Are you tired?");
+        <pre>
+          <code>
+            var userAnswer = prompt("Are you tired?");
 
-          if (userAnswer === "yes") {
-            console.log("Go to sleep!")
-          }
-          else {
-            console.log("Stay awake!")
-          }
-        </code>
+            if (userAnswer === "yes") {
+              console.log("Go to sleep!")
+            }
+            else {
+              console.log("Stay awake!")
+            }
+          </code>
+        </pre>
         But what if we want to have multiple different answers? We could use "if else" statements but there is a way more efficent way of doing it.
         Here we are using switch statements to tell the user what to do:
-        <code>
-          var userAnswer = prompt("Are you tired?");
+        <pre>
+          <code>
+            var userAnswer = prompt("Are you tired?");
 
-          switch (userAnswer) {
-            case "yes":
-              console.log("Go to sleep!")
-              break;
-            case "no":
-              console.log("Don't sleep!")
-              break;
-            case "a bit":
-              console.log("Have a quick nap!")
-              break;
-            case "i don't know":
-              console.log("Figure it out and come back later")
-              break;
-            default:
-              console.log("I didn't understand that. Try again!")
-          }
-        </code>
+            switch (userAnswer) {
+              case "yes":
+                console.log("Go to sleep!")
+                break;
+              case "no":
+                console.log("Don't sleep!")
+                break;
+              case "a bit":
+                console.log("Have a quick nap!")
+                break;
+              case "i don't know":
+                console.log("Figure it out and come back later")
+                break;
+              default:
+                console.log("I didn't understand that. Try again!")
+            }
+          </code>
+        </pre>
+        How about if we wanted to ask the user multiple times? We would use a loop. Here we are using a for loop and we are asking 5 times.
+        <pre>
+          <code>
+            var userAnswer = prompt("Are you tired?");
+            for(i=0; i < 5; i++) {
+              i++;
+              switch (userAnswer) {
+                case "yes":
+                  console.log("Go to sleep!")
+                  break;
+                case "no":
+                  console.log("Don't sleep!")
+                  break;
+                case "a bit":
+                  console.log("Have a quick nap!")
+                  break;
+                case "i don't know":
+                  console.log("Figure it out and come back later")
+                  break;
+                default:
+                  console.log("I didn't understand that. Try again!")
+              }
+            }
+          </code>
+        </pre>
       </p>
       <h3>Arrays and object literals</h3>
       <p>
