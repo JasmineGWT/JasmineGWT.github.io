@@ -33,80 +33,9 @@
       </p>
       <h3>Control flow and loops</h3>
       <p>
-        Control flow is a very important part of programming because it allows the code to do different things depending on the scenario. This is done in many different ways. If/else, switch and loops are three way in which this is done. For example lets say I’m tired and I’m asking a website what to do (I hope most people are able to figure this out without the use of a website).
-        Here we are using if/else statements to tell the user what to do:
-        <div class ="code">
-          <pre>
-            <code>
-              var userAnswer = prompt("Are you tired?");
+        Control flow is a very important part of programming because it allows the code to do different things depending on the scenario. For example lets say we needed to figure out what to wear. If its a formal event then a formal outfit is needed, for the beach you would want a swimsuit, to sit and binge watch Netflix you'd want something comfy etc. This is how the control flow works. We take the 'outfit' variable and choose the correct outcome for the nessisary event.
 
-              if (userAnswer === "yes") {
-                console.log("Go to sleep!")
-              }
-              else {
-                console.log("Stay awake!")
-              }
-            </code>
-          </pre>
-        </div>
-        But what if we want to have multiple different answers? We could use "if else" statements but there is a way more efficent way of doing it.
-        Here we are using switch statements to tell the user what to do:
-        <div class ="code">
-          <pre>
-            <code>
-              var userAnswer = prompt("Are you tired?");
-
-              switch (userAnswer) {
-                case "yes":
-                  console.log("Go to sleep!")
-                  break;
-                case "no":
-                  console.log("Don't sleep!")
-                  break;
-                case "a bit":
-                  console.log("Have a quick nap!")
-                  break;
-                case "i don't know":
-                  console.log("Figure it out and come
-                  back later")
-                  break;
-                default:
-                  console.log("I didn't understand that.
-                  Try again!")
-              }
-            </code>
-          </pre>
-        </div>
-        How about if we wanted to ask the user multiple times? We would use a loop. Here we are using a for loop and we are asking 5 times.
-        <div class ="code">
-          <pre>
-            <code>
-              var userAnswer = prompt("Are you tired?");
-              for(i=0; i < 5; i++) {
-                i++;
-                switch (userAnswer) {
-                  case "yes":
-                    console.log("Go to sleep!")
-                    break;
-                  case "no":
-                    console.log("Don't sleep!")
-                    break;
-                  case "a bit":
-                    console.log("Have a quick nap!")
-                    break;
-                  case "i don't know":
-                    console.log("Figure it out and come
-                    back later")
-                    break;
-                  default:
-                    console.log("I didn't understand that.
-                    Try again!")
-                }
-              }
-            </code>
-          </pre>
-        </div>
-        These are all examples of control flow statemets.
+        A loop could be when you have to go shopping for new clothes. You find clothes, try them on, if you like them then you buy them otherwise you put it back, then you start again (or loop) to find more things to try on. We keep doing this until we have brought the amount of clothes we wanted or until the right outfit is found. Same goes for loops in JavaScript. We perform an action a certain amount of times or do it until the task is finished.
       </p>
       <h3>Arrays and object literals</h3>
       <p>
