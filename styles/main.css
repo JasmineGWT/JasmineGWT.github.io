@@ -78,7 +78,8 @@ h3 {
   padding: 20px;
   border-radius: 70px;
   width: 50%;
-
+  background-color: black;
+  color: white;
 }
 
 @media (min-width: 981px) {
