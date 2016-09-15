@@ -11,6 +11,10 @@ img {
   width: 50%;
 }
 
+.codeExampleImg {
+  border-radius: 0px;
+}
+
 .title {
   background-image: url(http://i.imgur.com/SzOPmOv.gif);
   color: #ffe6f3;
