@@ -11,8 +11,8 @@ img {
   width: 50%;
 }
 
-.codeExampleImg {
-  border-radius: 0px;
+code {
+  background-color: grey;
 }
 
 .title {
