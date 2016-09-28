@@ -15,6 +15,10 @@ code {
   background-color: lightgrey;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .title {
   background-image: url(http://i.imgur.com/SzOPmOv.gif);
   color: #ffe6f3;
